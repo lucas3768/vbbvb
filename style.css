@@ -1,0 +1,18 @@
+h3{
+  font-size: 25px !important;
+}
+.btn-success:hover {
+  background-color: aquamarine;
+  
+}
+canvas { 
+  animation-name:luz;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+
+
+}
+@keyframes luz {
+  from{box-shadow: 50px 1px 100px black;}
+  to{box-shadow: 50px 1px 100px gray;}
+}
